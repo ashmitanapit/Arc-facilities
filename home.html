@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arcfacilities</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<style>
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+</style>
+ 
+</head>
+<body onload="createCaptcha()">
+  
+<div class="topnav" style="background-color: #DC0014 ;">
+    <div class="container-fluid">
+      <p style="text-align: center; text-decoration-color: white; padding:5px 0;">Try Out Our Free COVID-19 Risk Assessment Tool !</p>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container" style="margin: 0 70px;">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="images/logo.jpg" style="width: 250px;">
+     
+          </a>
+
+        <div class="navbar-right">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fa fa-phone" style="font-size:20px;color:red"></i>
+                  Tel. No.:<br>
+                  +44 20 8316 1372
+                </p>
+              </li>
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fas fa-mobile" style="font-size:20px;color:red"></i>
+                  
+                  Mobile No.:<br>
+                  +44 74 6231 7947
+                </p>
+              </li>
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fas fa-envelope" style="font-size:20px;color:red"></i>
+                  Email:<br>
+                  info@arcfacilities.co.uk
+                </p>
+              </li>
+            </ul>
+   
+          </div>
+        </div>
+        </div>    
+      </nav>
+
+    </div>
+  </div>
+  <div class="navbar" style="background-color: grey;">
+    <div class="container" style="margin: 0 70px;">
+      
+      <a style="color: white"class="active" href="#">Home</a>
+
+      <a style="color: white" href="aboutus.html">About Us</a>
+      <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Building Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Mechanical and Electrical Maintenance Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Building Maintenance & Repair Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Plumbing</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Heating, Ventilation and Air-conditioning (HVAC) Maintenance Services</a>
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cleaning Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">COVID-19 Cleaning and Decontamination</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Plant Room Cleaning and Technical Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Commercial Cleaning Services</a>
+          
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Professional Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Management Consultancy and Training</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Projrct Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Facilities Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Energy Management</a>
+          <div class="dropdown-divider"></div>
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Building  Compliance Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Workplace Risk Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Occupational Hygiene Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Water Hygiene</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Pest Control</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      
+      <a style="color: white" href="contactus.html">Contact Us</a>
+    
+    </div>
+  </div>
+
+
+<div class="banner">
+    <div class="container-fluid" style="padding: 0;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/imh4.jpg" alt="clean" width="100%" height="500">
+      <div class="carousel-caption">
+        <h1>Property Maintain Ans Repair</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/img1.jpg" alt="clean" width="100%" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img2.jpg" alt="clean" width="100%" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img3.jpg" alt="clean" width="100%" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container" style="margin: 0 50px; padding: 30px 0;">
+      <h1>Welcome to ARC Facilities</h1>
+      <p>ARC Facilities offers property maintenance and repairs services for building owners and business managers in London and environ. We provide a single point of contact for all building repairs, maintenance, and compliance requirements. We provide diverse range of property maintenance services in a timely, efficient, professional, and cost-effective manner. By removing the distraction of building maintenance, businesses are thus able to concentrate on the most important thing, that is running their business. Our services include mechanical and electrical services; heating, ventilation and air-conditioning services, carpentry, painting and decoration, plaster boarding, tiling, small fits and repairs of furniture and equipment. So Contact us for property maintenance service or any other kinds of services.</p>
+    </div>
+  </div>
+  <div class="service">
+    <div class="container" style="margin: 0 100px; padding: 30px 0;">
+      <div class="row">
+        <div class="col-md-4" style="background-color: #DC0014 ;">
+          <div class="form">
+            <h4 style="color: white">Request Quotation</h4>
+            <p style="color: white">Building Services & Maintenance?</p>
+        <form onsubmit="validateCaptcha()">
+          <div class="box">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="Enter Your Name" name="name">
+          </div>
+          
+          <div class="box">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email">
+          </div>
+          <div class="box">
+            <label for="phone">Mobile no.</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Enter Your Phone" name="phone">
+          </div>
+          <div class="box">
+            <label for="Address">Address</label>
+            <input type="Address" class="form-control" id="Address" placeholder="Enter Your Address" name="Address">
+          </div>
+          <div class="box">
+            <label for="Service">Select Service</label>
+            <br>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>---SELECT---</option>
+              <option value="1">Building</option>
+              <option value="2">Cleaning</option>
+              <option value="3">Proffessional</option>
+            </select>
+        </div>
+          <div class="box">
+            <label for="message">Message</label>
+            <input type="message" class="form-control" id="message" placeholder="Message" name="message" style="height: 100px;">
+          </div>
+          <br>
+          <div class="box">
+            <div class="row">
+              <div class="col-md-4">
+
+         <!--  captcha -->
+            <div id="captcha">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <input type="text" placeholder="Captcha" id="cpatchaTextBox"/>
+          </div>
+        </div>
+            <br>
+            <button type="submit">SUBMIT</button>
+          
+        </div>
+         </form>
+
+        </div>
+      </div>
+      <div class="col-md-8" style="padding-left: 50px;">
+        <div class="row">
+          <div class="col-md-4 text-center" style="margin: 0 30px; background-color: black; margin-bottom: 50px">
+          <h3 style="color: white;"> Compliance Services</h3>
+             <p style="color: white;">Our Building Compliance management services incorporates professional assessment of workplace risks, Occupational Hygiene Services, Health and Safety Management, Water Hygiene Services ...</p>
+             <button  style="background-color: black; color: white;" type="submit">View More</button>
+        </div>
+        <div class="col-md-4 text-center" style="background-color: black;margin-left: 30px; margin-bottom: 50px">
+          <h3 style="color: white;"> Compliance Services</h3>
+             <p style="color: white;">Our Building Compliance management services incorporates professional assessment of workplace risks, Occupational Hygiene Services, Health and Safety Management, Water Hygiene Services ...</p>
+             <button  style="background-color: black; color: white;" type="submit">View More</button>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center" style="background-color: black; margin: 0 30px;">
+          <h3 style="color: white;"> Compliance Services</h3>
+             <p style="color: white;">Our Building Compliance management services incorporates professional assessment of workplace risks, Occupational Hygiene Services, Health and Safety Management, Water Hygiene Services ...</p>
+             <button  style="background-color: black; color: white;" type="submit">View More</button>
+        </div>
+        <div class="col-md-4 text-center" style="background-color: black; margin-left: 30px">
+          <h3 style="color: white;"> Compliance Services</h3>
+             <p style="color: white;">Our Building Compliance management services incorporates professional assessment of workplace risks, Occupational Hygiene Services, Health and Safety Management, Water Hygiene Services ...</p>
+             <button  style="background-color: black; color: white;" type="submit">View More</button>
+        </div>
+        </div>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="chooseus">
+    <div class="container-fluid" style="padding: 0; padding-top: 30px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/tool.jpg" style="width: 100%; height: 400px;">
+        </div>
+        <div class="col-md-8" style="background-color:#DC0014 ; ">
+          <h2 style="color: white;">One Stop Solution for all Facilities Services</h2>
+          <div class="row">
+            <div class="col-md-6">
+          
+            
+                  
+                  <h3 style="color: white"><i class="fa fa-check-circle" style="font-size:40px;color:grey"></i>
+                  Vision<br>
+                  <span style="font-size: 16px; color: black;"> We are passionate in offering professional and excellent services to our clients</span>
+                </h3>
+                <h3 style="color: white"><i class="fa fa-book" style="font-size:40px;color:grey"></i>
+                  Affordable<br>
+                  <span style="font-size: 16px; color: black;">Our prices are affordable, both to our local and commercial clients</span>
+                </h3>
+                <h3 style="color: white"><i class="fa fa-image" style="font-size:40px;color:grey; border-radius: 50%;"></i>
+                  Quality<br>
+                  <span style="font-size: 16px; color: black;">Our high technical capability and and excellent customer care ensures our global competitiveness</span>
+                </h3>
+            </div>
+            <div class="col-md-2">
+              <img src="images/to.jpg" style="height: 300px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="container-fluid" style="padding: 0; background-color: #E3E3E3; padding: 20px 0;">
+      <div class="row text-center" style="padding: 20px 80px;">
+        <div class="col-md-4" style=" border: solid #CBCACA; background-color: white;">
+          <figure>
+        <img src="images/awa.jpg" style="width: 100%; height: 300px; padding-top: 10px; ">
+        <figcaption>Awards and Recognition</figcaption>
+      </figure>
+        </div>
+        <div class="col-md-4" style=" border: solid #CBCACA; background-color: white;">
+          <figure>
+        <img src="images/ham.jpg" style="width: 100%; height: 300px; padding-top: 10px;">
+        <figcaption>Awards and Recognition</figcaption>
+      </figure>
+        </div>
+        <div class="col-md-4" style="border: solid #CBCACA; background-color: white;">
+          <figure>
+        <img src="images/rev.img" style="width: 100%; height: 300px; padding-top: 10px;">
+        <figcaption>Awards and Recognition</figcaption>
+      </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partner">
+      <div class="container" style="padding-top: 30px;">
+      <div class="col-md-12 block-header">
+        <h2 class="section-title text-center">Accreditations</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="slides">
+          <div class="carousell owl-carousel">
+            <img src="images/p1.jpg" style="height: 200px" width="200px">
+            <img src="images/p2.jpg" style="height: 200px" width="200px">
+            <img src="images/p3.jpg" style="height: 200px" width="200px">
+            <img src="images/p4.jpg" style="height: 200px" width="200px">
+            <img src="images/p5.jpg" style="height: 200px" width="200px">
+            <img src="images/p7.jpg" style="height: 200px" width="200px">
+    
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container-fluid">
+    <div class="row" style="background-color: grey; height: 400px;  padding: 0 100px;">
+      <div class="col-md-4" style="padding-top: 40px;">
+        <h3 style="color: white">Contact Us</h3>
+          
+          <p style="color: white"><i class="fa fa-home" style="font-size:25px;color:red; background-color: white;"></i> 158 Plumstead Road LondonSE18 7DY</p>
+          
+          
+                  <p style="color: white"><i class="fas fa-envelope" style="font-size:25px;color:red; background-color: white;"></i>Info@Arcfacilities.Co.Uk</p>
+                  
+                  <p style="color: white"><i class="fa fa-phone" style="font-size:25px;color:red; background-color: white"></i>+44 20 8316 1372</p>
+                  
+      </div>
+      <div class="col-md-2" style="padding-top: 40px;" >
+        <h3 style="color: white">Services</h3>
+        <p style="color: white">Building Services<br>
+          Cleaning Services<br>
+
+          Compliance Services<br>
+
+          Professional Services
+        </p>
+        
+      </div>
+      <div class="col-md-4" style="padding-top: 40px;">
+        <h3 style="color: white">Connect With Us</h3>
+        <a href="#" class="fa fa-facebook" style=" font-size: 30px;border-radius: 50%;"></a>
+        <a href="#" class="fa fa-twitter" style=" font-size: 30px;border-radius: 50%;"></a>
+        <a href="#" class="fa fa-linkedin" style=" font-size: 30px;border-radius: 50%;"></a>
+      </div>
+      <div class="col-md-2" style="padding-top: 40px;">
+         <h3 style="color: white">Legal</h3>
+         <p style="color: white;">Building Services<br>
+            Privacy Policy<br>
+            Write Reviews<br>
+            Plant Room Cleaning And Technical Services<br>
+            Blogs<br>
+            Gallery</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="bottomnav fixed-bottom" style="border-top:1px solid white; background-color: #DC0014 ; ">
+    <div class="container" style="padding: 0 50px;">
+      <div class="row" style="padding: 30px 0;">
+        <div class="col-md-9">
+          <p style="color: white;">We use cookies to make your experience better. To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.</p>
+        </div>
+        <div class="col-md-3">
+          <button  style="background-color: black; color: white;" type="submit">Yes I Consent</button>
+          <button  style="background-color: white; color: black;" type="submit">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="captcha.js"> </script>
+  <script>
+ 
+    $(".carousell").owlCarousel({
+      margin: 10,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 700,
+    });
+  </script>
+
+</body>
+</html>
