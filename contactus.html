@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arcfacilities</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<style>
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+</style>
+ 
+</head>
+<body onload="createCaptcha()">
+  
+<div class="topnav" style="background-color: #DC0014 ;">
+    <div class="container-fluid">
+      <p style="text-align: center; text-decoration-color: white; padding:5px 0;">Try Out Our Free COVID-19 Risk Assessment Tool !</p>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container" style="margin: 0 70px;">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a href="home.html" class="navbar-brand">
+            <img src="images/logo.jpg" style="width: 250px;">
+     
+          </a>
+
+        <div class="navbar-right">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fa fa-phone" style="font-size:20px;color:red"></i>
+                  Tel. No.:<br>
+                  +44 20 8316 1372
+                </p>
+              </li>
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fas fa-mobile" style="font-size:20px;color:red"></i>
+                  
+                  Mobile No.:<br>
+                  +44 74 6231 7947
+                </p>
+              </li>
+              <li class="nav-item" style="padding: 0 50px;">
+                <p>
+                  <i class="fas fa-envelope" style="font-size:20px;color:red"></i>
+                  Email:<br>
+                  info@arcfacilities.co.uk
+                </p>
+              </li>
+            </ul>
+   
+          </div>
+        </div>
+        </div>    
+      </nav>
+
+    </div>
+  </div>
+  <div class="navbar" style="background-color: grey;">
+    <div class="container" style="margin: 0 70px;">
+      
+      <a style="color: white"class="active" href="#">Home</a>
+
+      <a style="color: white" href="aboutus.html">About Us</a>
+      <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Building Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Mechanical and Electrical Maintenance Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Building Maintenance & Repair Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Plumbing</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Heating, Ventilation and Air-conditioning (HVAC) Maintenance Services</a>
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cleaning Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">COVID-19 Cleaning and Decontamination</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Plant Room Cleaning and Technical Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Commercial Cleaning Services</a>
+          
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Professional Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Management Consultancy and Training</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Projrct Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Facilities Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Energy Management</a>
+          <div class="dropdown-divider"></div>
+        </div>
+        <a style="color: white" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Building  Compliance Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey">
+          <a class="dropdown-item" href="#">Workplace Risk Management</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Occupational Hygiene Services</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Water Hygiene</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Pest Control</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      
+      <a style="color: white" href="contactus.html">Contact Us</a>
+    
+    </div>
+  </div>
+
+  <div class="contactinfo">
+    <div class="container" style="margin: 0 70px; padding: 50px 0;">
+      <h2 class="text-center" style="color: red; padding-bottom: 50px;">
+        Contact Us
+      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 text-center" style="background-color: blue; color: white;">
+              <h4>Address</h4>
+              <p>58 Plumstead Road LondonSE18 7DY</p>
+              <h4>Email</h4>
+              <p>info@arcfacilities.co.uk</p>
+              <h4>Phone</h4>
+              <p>+44 20 8316 1372</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="map">
+                <div class="container-fluid">
+                  <div class="container" style="padding: 0 70px;">
+                    <div class="gmap" style="padding: 20px 0;">
+                      <div id="map-container-google-1" class="z-depth-1-half map-container" style="width: 100%; height: 150px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4968.530364911464!2d0.084601!3d51.490001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea848bbe3109d5a0!2sARC%20Facilities!5e0!3m2!1sen!2suk!4v1624852078008!5m2!1sen!2suk" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6" style="background-color: #DC0014 ; padding: 30px 30px;">
+          <div class="form">
+            <h4 style="color: white">Send Us A Email</h4>
+            
+        <form onsubmit="validateCaptcha()">
+          <div class="box" style="padding: 10px 0;">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="Enter Your Name" name="name">
+          </div>
+          
+          <div class="box" style="padding: 10px 0;">
+            <label for="phone">Phone No.</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Your Phone" name="phone">
+          </div>
+
+          <div class="box" style="padding: 10px 0;">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email">
+          </div>
+          
+          
+          <div class="box" style="padding: 10px 0;">
+            <label for="message">Message</label>
+            <input type="message" class="form-control" id="message" placeholder="Message" name="message" style="height: 100px;">
+          </div>
+          <br>
+          <div class="box">
+            <div class="row">
+              <div class="col-md-4">
+
+         <!--  captcha -->
+            <div id="captcha">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <input type="text" placeholder="Captcha" id="cpatchaTextBox"/>
+          </div>
+        </div>
+            <br>
+            <button type="submit" style="background-color: grey; width: 100%; height: 50px; color: white;" >Send Message</button>
+          
+        </div>
+         
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container-fluid">
+    <div class="row" style="background-color: grey; height: 400px;  padding: 0 100px;">
+      <div class="col-md-4" style="padding-top: 40px;">
+        <h3 style="color: white">Contact Us</h3>
+          
+          <p style="color: white"><i class="fa fa-home" style="font-size:25px;color:red; background-color: white;"></i> 158 Plumstead Road LondonSE18 7DY</p>
+          
+          
+                  <p style="color: white"><i class="fas fa-envelope" style="font-size:25px;color:red; background-color: white;"></i>Info@Arcfacilities.Co.Uk</p>
+                  
+                  <p style="color: white"><i class="fa fa-phone" style="font-size:25px;color:red; background-color: white"></i>+44 20 8316 1372</p>
+                  
+      </div>
+      <div class="col-md-2" style="padding-top: 40px;" >
+        <h3 style="color: white">Services</h3>
+        <p style="color: white">Building Services<br>
+          Cleaning Services<br>
+
+          Compliance Services<br>
+
+          Professional Services
+        </p>
+        
+      </div>
+      <div class="col-md-4" style="padding-top: 40px;">
+        <h3 style="color: white">Connect With Us</h3>
+        <a href="#" class="fa fa-facebook" style=" font-size: 30px;border-radius: 50%;"></a>
+        <a href="#" class="fa fa-twitter" style=" font-size: 30px;border-radius: 50%;"></a>
+        <a href="#" class="fa fa-linkedin" style=" font-size: 30px;border-radius: 50%;"></a>
+      </div>
+      <div class="col-md-2" style="padding-top: 40px;">
+         <h3 style="color: white">Legal</h3>
+         <p style="color: white;">Building Services<br>
+            Privacy Policy<br>
+            Write Reviews<br>
+            Plant Room Cleaning And Technical Services<br>
+            Blogs<br>
+            Gallery</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="bottomnav fixed-bottom" style="border-top:1px solid white; background-color: #DC0014 ; ">
+    <div class="container" style="padding: 0 50px;">
+      <div class="row" style="padding: 30px 0;">
+        <div class="col-md-9">
+          <p style="color: white;">We use cookies to make your experience better. To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.</p>
+        </div>
+        <div class="col-md-3">
+          <button  style="background-color: black; color: white;" type="submit">Yes I Consent</button>
+          <button  style="background-color: white; color: black;" type="submit">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="captcha.js"> </script>
+  <script>
+ 
+    $(".carousell").owlCarousel({
+      margin: 10,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 700,
+    });
+  </script>
+
+</body>
+</html>
